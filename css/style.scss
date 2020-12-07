@@ -1,0 +1,23 @@
+@import "reset";
+@import "variables";
+
+body {
+  background-color: #fff;
+  h1 {
+    font-size: 30px;
+    margin: 20px 0px;
+    text-align: center;
+  }
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    #exMachina {
+      max-width: 33%;
+    }
+  }
+  img {
+    width: 250px;
+  } 
+}
